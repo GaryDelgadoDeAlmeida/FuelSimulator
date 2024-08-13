@@ -22,9 +22,10 @@ export default function HeaderAdmin(props) {
                     <nav className={"menu"}>
                         <li><Link to={"/admin"}>Home</Link></li>
                         <li><Link to={"/admin/brands"}>Brands</Link></li>
+                        <li><Link to={"/admin/car-types"}>Car Types</Link></li>
                         <li><Link to={"/admin/cars"}>Cars</Link></li>
                         <li><Link to={"/admin/fuels"}>Fuels</Link></li>
-                        <li><Link to={"/admin/fuels-histories"}>Fuels Histories</Link></li>
+                        <li><Link to={"/admin/fuels-history"}>Fuels Histories</Link></li>
                         <li><Link to={"#logout"} onClick={(e) => handleLogout(e)}>Logout</Link></li>
                     </nav>
                 </div>

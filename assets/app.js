@@ -20,6 +20,15 @@ import Login from './screens/user/Login';
 
 // Admin
 import AdminHome from "./screens/admin/Home";
+import AdminProfile from "./screens/admin/Profile";
+import AdminBrands from "./screens/admin/Brands";
+import AdminBrand from "./screens/admin/Brand";
+import AdminCars from "./screens/admin/Cars";
+import AdminCar from "./screens/admin/Car";
+import AdminCarType from "./screens/admin/CarType";
+import AdminFuels from "./screens/admin/Fuels";
+import AdminFuel from "./screens/admin/Fuel";
+import AdminFuelsHistory from "./screens/admin/FuelsHistory";
 
 // Common
 import Page404 from "./screens/Page404"
@@ -37,17 +46,18 @@ root.render(
 
                 {/* Admin */}
                 <Route path={"/admin"} element={<AdminHome />} />
-                <Route path={"/admin/profile"} element={<AdminHome />} />
-                <Route path={"/admin/cars"} element={<AdminHome />} />
+                <Route path={"/admin/profile"} element={<AdminProfile />} />
+                <Route path={"/admin/cars"} element={<AdminCars />} />
                 <Route path={"/admin/cars/add"} element={<AdminHome />} />
-                <Route path={"/admin/car/:carID"} element={<AdminHome />} />
-                <Route path={"/admin/brands"} element={<AdminHome />} />
+                <Route path={"/admin/car/:carID"} element={<AdminCar />} />
+                <Route path={"/admin/car-types"} element={<AdminCarType />} />
+                <Route path={"/admin/brands"} element={<AdminBrands />} />
                 <Route path={"/admin/brands/add"} element={<AdminHome />} />
-                <Route path={"/admin/brand/:brandID"} element={<AdminHome />} />
-                <Route path={"/admin/fuels"} element={<AdminHome />} />
+                <Route path={"/admin/brand/:brandID"} element={<AdminBrand />} />
+                <Route path={"/admin/fuels"} element={<AdminFuels />} />
                 <Route path={"/admin/fuels/add"} element={<AdminHome />} />
-                <Route path={"/admin/fuel/:fuelID"} element={<AdminHome />} />
-                <Route path={"/admin/fuels-histories"} element={<AdminHome />} />
+                <Route path={"/admin/fuel/:fuelID"} element={<AdminFuel />} />
+                <Route path={"/admin/fuels-history"} element={<AdminFuelsHistory />} />
                 
                 {/* Common */}
                 <Route path={"/login"} element={<Login />} />
