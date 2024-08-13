@@ -1,4 +1,6 @@
 :root {
+    --c-primary: #263846;
+    --c-secondary: #1a2730;
     --site-background-color: var(--c-grayishBlue);
 
     // Primary colors
@@ -55,3 +57,4 @@
 @import "./parts/form";
 @import "./parts/notification";
 @import "./parts/pagination";
+@import "./parts/table";

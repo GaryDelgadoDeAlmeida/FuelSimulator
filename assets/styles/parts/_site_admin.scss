@@ -13,13 +13,13 @@
 
     .page-header {
         width: 200px;
-        background-color: var(--c-white);
+        background-color: var(--c-primary);
 
         @include tablet {
             display: none;
         }
 
-        .menu-horizontal {
+        .menu {
             display: flex;
             flex-direction: column;
 
@@ -29,6 +29,8 @@
                 a {
                     width: 100%;
                     padding: 15px;
+                    color: var(--c-white);
+                    text-decoration: none;
 
                     &:hover {
                         color: var(--c-white);

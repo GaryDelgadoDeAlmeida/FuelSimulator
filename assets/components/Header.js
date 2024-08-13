@@ -12,6 +12,8 @@ export default function Header(props) {
                         <div className={"-right"}>
                             <div className={"menu"}>
                                 <Link to={"/"}>Home</Link>
+                                <Link to={"/cars"}>Cars</Link>
+                                <Link to={"/fuel-simulator"}>Fuel Simulator</Link>
                                 <Link to={"/login"}>Login</Link>
                             </div>
                         </div>

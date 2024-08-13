@@ -13,7 +13,7 @@ html, body, .page {
 
     .page-header {
         padding: 10px 25px;
-        background-color: var(--c-white);
+        background-color: var(--c-primary);
         box-shadow: 0 0 15px rgba(0, 0, 0, 0.17);
 
         // Desktop version of the menu
@@ -44,14 +44,14 @@ html, body, .page {
                     display: flex;
 
                     a {
-                        padding: 15px 25px;
                         font-size: 1rem;
-                        color: var(--c-black);
+                        padding: 15px 25px;
+                        color: var(--c-white);
                         text-decoration: none;
 
                         &:hover {
-                            background-color: var(--c-gray85);
                             transition: .3s;
+                            background-color: var(--c-gray85);
                         }
                     }
                 }
@@ -316,8 +316,8 @@ html, body, .page {
     }
     
     .page-footer {
-        color: var(--c-black);
-        background-color: var(--c-white);
+        color: var(--c-white);
+        background-color: var(--c-primary);
 
         .footer-quick-links {
             padding: 50px 0;
@@ -359,7 +359,7 @@ html, body, .page {
 
                 a {
                     font-weight: 700;
-                    color: var(--c-black);
+                    color: var(--c-white);
                     text-decoration: none;
 
                     &:hover {
